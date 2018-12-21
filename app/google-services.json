@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "922936434883",
+    "firebase_url": "https://gsuapp-ffb3a.firebaseio.com",
+    "project_id": "gsuapp-ffb3a",
+    "storage_bucket": "gsuapp-ffb3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922936434883:android:c307f70d116aefef",
+        "android_client_info": {
+          "package_name": "com.stork.root.gs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922936434883-mdq383rt5886atsssd5ekm0a60aov9cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQBCXIoDHd5o181EsQKDBzBZVsV45JLGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

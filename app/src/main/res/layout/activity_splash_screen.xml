@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.stork.root.gs.SplashScreen"
+    android:background="#b61117">
+
+
+    <com.github.rahatarmanahmed.cpv.CircularProgressView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progress_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:cpv_animAutostart="true"
+        app:cpv_indeterminate="true"
+        android:layout_below="@+id/splash"
+        app:cpv_color="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.5"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="200dp"
+        android:id="@+id/splash"
+        android:background="@drawable/gsu_beyaz"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+         />
+
+</RelativeLayout>

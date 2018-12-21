@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="center_horizontal">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#b61117"
+            >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GSU"
+                    android:textStyle="bold"
+                    android:textColor="#f49814"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/toolbar_title" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APP"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/toolbar_title1" />
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:id="@+id/percentlayout">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duyurular"
+                    android:id="@+id/duyurularBtn"
+                    android:textSize="16dp"
+                    android:textColor="@color/background2"
+                    android:drawableTop="@drawable/duyuru_son2"
+                    android:drawablePadding="-2dp"
+                    app:layout_heightPercent="33%"
+                    app:layout_widthPercent="50%"
+                    android:layout_alignParentEnd="true"
+                    android:background="#eeeeee"
+                    android:onClick="OnClick"
+                    />
+
+                <Button
+                    app:layout_heightPercent="33%"
+                    app:layout_widthPercent="50%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/yemekhaneBtn"
+                    android:drawableTop="@drawable/food_son3"
+                    android:textSize="16dp"
+                    android:text="Yemek Menüsü"
+                    android:layout_alignParentStart="true"
+                    android:background="#f5f5f5"
+                    android:textColor="@color/background2"
+                    android:onClick="OnClickYemekhane"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ETKİNLİKLER"
+                    android:drawableTop="@drawable/etkinlik_son2"
+                    android:id="@+id/etkinliklerBtn"
+                    android:layout_above="@+id/menu_hakkimizda"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="@color/background2"
+                    android:textSize="16dp"
+                    app:layout_heightPercent="33%"
+                    app:layout_widthPercent="50%"
+                    android:background="#e0e0e0"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_toEndOf="@+id/yemekhaneBtn"
+                    android:onClick="OnClickEtkinlikler"
+                    />
+
+                <Button
+                    android:id="@+id/menu_hakkimizda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/menu_kikencere"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_toEndOf="@+id/OgretimElemanlariBtn"
+                    android:background="#bdbdbd"
+                    android:drawableTop="@drawable/info_son2"
+                    android:drawablePadding="-10dp"
+                    android:focusableInTouchMode="false"
+                    android:text="Qr Kod"
+                    android:textColor="@color/background2"
+                    android:textSize="16dp"
+                    app:layout_heightPercent="34%"
+                    app:layout_widthPercent="50%" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_heightPercent="34%"
+                    app:layout_widthPercent="50%"
+                    android:drawableTop="@drawable/ogretim_elemanlari_son2"
+                    android:drawablePadding="-10dp"
+                    android:text="ÖĞRETİM ELEMANLARI"
+                    android:textSize="16dp"
+                    android:id="@+id/OgretimElemanlariBtn"
+                    android:textColor="@color/background2"
+                    android:layout_below="@+id/menu_kikencere"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignEnd="@+id/yemekhaneBtn"
+                    android:layout_margin="0dp"
+                    android:background="#e0e0e0"
+                    android:onClick="OnClickOgretimE lemanlari"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/kikencere_son2"
+                    android:text="Plateforme GSU"
+                    android:id="@+id/menu_kikencere"
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_below="@+id/yemekhaneBtn"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignEnd="@+id/OgretimElemanlariBtn"
+                    android:layout_marginTop="0dp"
+                    android:textColor="@color/background2"
+                    android:layout_margin="0dp"
+                    android:background="#eeeeee"
+                    app:layout_heightPercent="33%"
+                    app:layout_widthPercent="50%"
+                    android:onClick="Kikencere"
+                    />
+        </android.support.percent.PercentRelativeLayout>
+
+
+
+
+</android.support.percent.PercentRelativeLayout>

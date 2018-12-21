@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stork.root.gs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gsuapplogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Duyurular.DuyurularActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Duyurular.DuyuruDetayActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Hocalar.OgretimElemanlariActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.SEARCH" />
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".Hocalar.OgretimElemaniDetayActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Yemekhane.YemekhaneActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Etkinlikler.EtkinliklerActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Etkinlikler.EtkinlikAddActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Etkinlikler.EtkinlikDetayActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Hocalar.BolumHocalarActivity"
+            android:screenOrientation="locked" />
+        <activity android:name=".Hocalar.Bolumler.Bilgisayar" />
+        <activity android:name=".Hocalar.Bolumler.Endustri" />
+        <activity android:name=".Hocalar.Bolumler.Hukuk" />
+        <activity android:name=".Hocalar.Bolumler.Diller" />
+        <activity android:name=".Hocalar.Bolumler.Felsefe" />
+        <activity android:name=".Hocalar.Bolumler.Iktisat" />
+        <activity android:name=".Hocalar.Bolumler.Iletisim" />
+        <activity android:name=".Hocalar.Bolumler.Isletme" />
+        <activity android:name=".Hocalar.Bolumler.Sosyoloji" />
+        <activity android:name=".Hocalar.Bolumler.Matematik" />
+        <activity android:name=".Hocalar.Bolumler.Siyaset" />
+        <activity android:name=".Hocalar.Bolumler.Uluslar" />
+        <activity
+            android:name=".Hocalar.HocalarListe"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Qr.Qr_Activity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Qr.FeedBack_Qr"
+            android:screenOrientation="locked" />
+
+        <service android:name=".Firebase.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity android:name=".Duyurular.DialogActivity"></activity>
+    </application>
+
+</manifest>

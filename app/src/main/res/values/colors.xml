@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b61117</color>
+    <color name="colorPrimaryDark">#b61117</color>
+    <color name="toolbarsarisi">#f49814</color>
+    <color name="colorAccent">#b61117</color>
+    <color name="fontss">#bdbdbd</color>
+    <color name="background1">#424242</color>
+    <color name="fonts">#424242</color>
+    <color name="background2">#757575</color>
+
+</resources>

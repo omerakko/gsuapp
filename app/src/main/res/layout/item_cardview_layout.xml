@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="6dp"
+    card_view:cardElevation="5dp"
+    card_view:contentPaddingBottom="10dp"
+    card_view:contentPaddingTop="10dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/cvDuyurular"
+    card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/gsu_amblem"
+                android:id="@+id/ivImg"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center_vertical"
+                    android:maxHeight="38dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Mustafa Dağdelen"
+                    android:textColor="@color/fonts"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/tvDuyuru"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="5dp"
+                    android:maxHeight="55dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/fonts"
+                    android:textSize="12dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="6dp">
+
+    <TextView
+        android:text="Yayın Yeri"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvYayinYeri"
+        android:textColor="@color/fonts"
+        android:textSize="11dp"
+        android:layout_gravity="left"
+        />
+                <TextView
+                    android:text="TextView"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTarih"
+                    android:textColor="@color/fonts"
+                    android:textSize="11dp"
+                    android:gravity="right"
+                    />
+
+</LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>

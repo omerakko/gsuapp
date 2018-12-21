@@ -1,0 +1,64 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    card_view:cardElevation="5dp"
+    android:id="@+id/cvHocalar"
+    card_view:cardCornerRadius="4dp"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/hocalarImg"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mustafa Dağdelen"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:id="@+id/tvadsoyad"
+            android:paddingRight="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:text="TextView"
+            android:paddingRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvbolum"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</android.support.v7.widget.CardView>

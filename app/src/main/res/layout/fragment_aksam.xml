@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arka">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_below="@+id/toolbar">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AKŞAM"
+            android:id="@+id/tvOgunYemekhane"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/fonts"
+            android:layout_marginTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tvYemekhane1"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="@color/fontss"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tvYemekhane2"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="@color/fontss"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tvYemekhane3"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="@color/fontss"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tvYemekhane4"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="@color/fontss"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tvYemekhane5"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="@color/fontss"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tvYemekhane6"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="@color/fontss"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tvYemekhane9"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="40dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+
